@@ -1,10 +1,9 @@
 const sumOfnumbersFromOneToTen = () => {
-    let totalSum = 0;
       let sum = 0;
     for (let i = 1; i <= 10; i++) {
       sum += i
     }  
-      return totalSum+sum
+      return sum
   }
 
 let currentTotal = 0
